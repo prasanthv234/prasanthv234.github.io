@@ -492,9 +492,11 @@ mark,
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border-radius: 8.25rem;
   max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 72%;
+  object-fit: cover;
 }
 
 .figure {
@@ -602,6 +604,8 @@ pre code {
           flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .no-gutters {
@@ -10783,6 +10787,9 @@ a.text-primary:hover, a.text-primary:focus {
 
 .text-secondary {
   color: #6c757d !important;
+  word-spacing: 2px;
+  line-height: 40px;
+
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
