@@ -9487,6 +9487,9 @@ button.bg-dark:focus {
 .pb-4,
 .py-4 {
   padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem;
+  background: var(--primary);
+  color: white;
 }
 
 .pl-4,
@@ -11622,15 +11625,15 @@ pre {
 }
 
 .carousel .carousel-indicators {
-  bottom: -60px;
+  bottom: -65px;
 }
 
 .carousel .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  box-shadow: inset 1px 1px 10px rgba(173, 181, 189, 0.3),
-    inset -1px -1px 7px rgba(173, 181, 189, 0.3);
+  /* box-shadow: inset 1px 1px 10px rgba(173, 181, 189, 0.3),
+    inset -1px -1px 7px rgba(173, 181, 189, 0.3); */
 }
 
 .carousel .carousel-indicators li.active {
@@ -11894,6 +11897,7 @@ pre {
   margin-bottom: 0px;
   font-size: 74px;
   font-weight: bold;
+  color: var(--primary);
 }
 
 .header .container .infos p {
@@ -12054,3 +12058,6 @@ pre {
 .section.bg-gray {
   background: white;
 }
+
+
+
