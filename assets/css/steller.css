@@ -11729,12 +11729,11 @@ pre {
     flex-direction: column;
     padding: 20px;
   }
-  .contact .form {
+  /* .contact .form {
     margin: 0 0 0 0;
     padding: 0;
     border-right: 0;
-  }
- 
+  } */
 }
 
 #map {
