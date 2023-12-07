@@ -11586,7 +11586,7 @@ pre {
 
 .custom-card .card-body i {
   display: block;
-  font-size: 40px;
+  font-size: 80px;
   margin-bottom: 18px;
   color: #ff7a57;
 }
@@ -11780,7 +11780,7 @@ pre {
 }
 
 .navbar .navbar-nav .nav-link.active {
-  color: #ff7a57;
+  color: white;
 }
 
 .navbar .navbar-nav .btn {
