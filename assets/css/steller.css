@@ -643,6 +643,7 @@ pre code {
   margin-left: -15px;
   /* align-items: center; */
   justify-content: center;
+  /* gap: 3rem; */
 }
 
 .no-gutters {
