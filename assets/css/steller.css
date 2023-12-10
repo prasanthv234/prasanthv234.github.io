@@ -11771,12 +11771,14 @@ pre {
 
 .navbar .navbar-nav {
   height: auto;
+  margin: 1rem 0;
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
   margin: 0 10px;
+  padding: 1rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
