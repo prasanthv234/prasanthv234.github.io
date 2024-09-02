@@ -7776,7 +7776,8 @@ button.bg-dark:focus {
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
   display: flex !important;
-  gap: 3rem;
+  row-gap: 5rem;
+  column-gap: 3rem;
 }
 
 .d-inline-flex {
