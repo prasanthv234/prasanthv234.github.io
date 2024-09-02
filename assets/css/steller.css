@@ -12070,5 +12070,6 @@ pre {
   bottom: 25px;
   right: 25px;
   display: none;
+  z-index: 555;
 }
 
