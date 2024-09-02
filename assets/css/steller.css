@@ -11395,12 +11395,12 @@ h6 {
 }
 
 .section-title {
-  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
 }
 
 @media (min-width: 992px) {
   .section-title {
-    font-size: 40px;
+    font-size: 40px !important;
   }
 }
 
